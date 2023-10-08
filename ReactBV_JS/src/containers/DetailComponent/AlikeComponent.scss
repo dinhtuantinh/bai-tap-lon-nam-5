@@ -1,0 +1,19 @@
+.body-component {
+    padding: 5px;
+    .content-component {
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        display: flex;
+        border: 1px solid #a1dcf0;
+        background-color: #f2f2f2;
+        .name-component {
+            padding-left: 10px;
+        }
+        .customize-border {
+            border: none;
+            min-width: 250px;
+            text-align: center;
+        }
+    }
+}

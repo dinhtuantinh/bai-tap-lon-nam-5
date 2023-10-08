@@ -1,0 +1,61 @@
+.manage-specialty-container {
+    padding: 0 15px;
+    .ms-title {
+        text-align: center;
+        margin: 10px 0;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .all-new-specialty {
+        .btn-save-specialty {
+            min-width: 75px;
+            border-radius: 3px;
+            border: none;
+            background-color: blue;
+            padding: 8px 5px;
+            margin: 15px 0;
+            color: white;
+            font-size: 17px;
+            font-weight: 400
+        }
+        .btn-update-specialty {
+            min-width: 75px;
+            border-radius: 3px;
+            border: none;
+            background-color: orange;
+            padding: 8px 5px;
+            margin: 15px 0;
+            color: white;
+            font-size: 17px;
+            font-weight: 400
+        }
+    }
+}
+#TableClinic {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#TableClinic td,
+#TableClinic th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#TableClinic tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#TableClinic tr:hover {
+    background-color: #ddd;
+}
+
+#TableClinic th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
