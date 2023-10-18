@@ -2,7 +2,7 @@
     "homeheader": {
         "speciality": "CHUYÊN KHOA",
         "searchdoctor": "Tìm bác sĩ theo chuyên khoa",
-        "health-facility": "CƠ SỞ Y TẾ",
+        "health-facility": "THIẾT BỊ Y TẾ",
         "select-room": "Chọn bệnh viện phòng khám",
         "doctor": "BÁC SĨ",
         "select-doctor": "Chọn bác sĩ giỏi",
@@ -23,13 +23,13 @@
     },
     "menu": {
         "admin": {
-            "manage-user": "Người dùng",
+            "manage-user": "Quản lý",
             "manage-doctor": "Quản lý bác sĩ",
             "manage-admin": "Quản lý admin",
             "crud": "CRUD user",
-            "crud-redux": "CRUD Redux",
-            "clinic": "Phòng khám",
-            "manage-clinic": "Quản lý cơ sở",
+            "crud-redux": "Danh sách bác sĩ",
+            "clinic": "Thiết bị y tế",
+            "manage-clinic": "Quản lý thiết bị y tế",
             "list-clinic": "Danh sách cơ sở",
             "specialty": "Chuyên khoa",
             "manage-specialty": "Quản lý chuyên khoa",
@@ -37,6 +37,7 @@
             "manage-note": "Quản lý cẩm nang"
         },
         "doctor": {
+            "doctor-edit-info": "Thay đổi thông tin",
             "manage-schedule": "Quản lý kế hoạch khám bệnh",
             "manage-patient": "Quản lý bệnh nhân khám bệnh"
         }
@@ -54,6 +55,7 @@
         "role": "Vai trò",
         "image": "Ảnh đại diện",
         "save": "Thêm người dùng",
+        "save-admin":"Thay đổi thông tin",
         "edit": "Lưu thay đổi",
         "add-clinic": "Thêm mới cơ sở"
     },
@@ -61,7 +63,7 @@
         "outstanding-doctor": "Bác sĩ",
         "more-infor": "Xem thêm",
         "specialty-poplular": "Chuyên khoa phổ biến",
-        "medical-facility": "Cơ sở y tế nổi bật",
+        "medical-facility": "Thiết bị y tế hiện đại",
         "note": "Cẩm nang"
     },
     "manage-schedule": {
@@ -101,7 +103,7 @@
     },
     "admin": {
         "manage-doctor": {
-            "title": "Tạo thêm thông tin doctors",
+            "title": "Thông tin doctors",
             "select-doctor": "Chọn bác sĩ",
             "intro": "Thông tin giới thiệu",
             "add": "Tạo thông tin",
@@ -109,8 +111,8 @@
             "price": "Giá khám bệnh",
             "payment": "Phương thức thanh toán",
             "province": "Tỉnh thành",
-            "nameClinic": "Tên phòng khám",
-            "addressClinic": "Địa chỉ phòng khám",
+            "nameClinic": "Tên thiết bị y tế",
+            "addressClinic": "Số lượng thiết bị y tế",
             "note": "Ghi chú",
             "specialty": "Chọn chuyên khoa",
             "select-clinic": "Chọn bệnh viện",
@@ -119,7 +121,7 @@
     },
     "component": {
         "specialty": "Chuyên khoa",
-        "clinic": "Các cơ sở y tế",
+        "clinic": "Các thiết bị y tế hiện đại",
         "doctor": "Các bác sĩ",
         "note": "Cẩm nang vàng"
     }

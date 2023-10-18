@@ -156,10 +156,10 @@ class ManageClinic extends Component {
     let dataClinic = this.state.dataClinic;
     return (
       <div className="manage-specialty-container">
-        <div className="ms-title">Quản lý phòng khám</div>
+        <div className="ms-title">Quản lý thiết bị y tế</div>
         <div className="all-new-specialty row">
           <div className="col-6 form-group">
-            <label>Tên phòng khám</label>
+            <label>Tên thiết bị y tế</label>
             <input
               className="form-control"
               type="text"
@@ -168,7 +168,7 @@ class ManageClinic extends Component {
             />
           </div>
           <div className="col-6 form-group">
-            <label>Ảnh phòng khám</label>
+            <label>Ảnh thiết bị y tế</label>
             <input
               className="form-control-file"
               type="file"
@@ -176,7 +176,7 @@ class ManageClinic extends Component {
             />
           </div>
           <div className="col-6 form-group">
-            <label>Địa chỉ phòng khám</label>
+            <label>Số lượng</label>
             <input
               className="form-control"
               type="text"
@@ -222,8 +222,8 @@ class ManageClinic extends Component {
                   No.
                 </td>
                 <th>Tên</th>
-                <th>Địa chỉ</th>
-                <th>Giới thiệu</th>
+                <th>Số lương</th>
+                <th>Chức năng</th>
                 <th>Actions</th>
               </tr>
               {dataClinic &&

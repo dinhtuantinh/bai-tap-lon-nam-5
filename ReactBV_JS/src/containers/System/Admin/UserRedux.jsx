@@ -209,7 +209,7 @@ class UserRedux extends Component {
     } = this.state;
     return (
       <div className="user-redux-container">
-        <div className="title">Quản lý danh sách người dùng</div>
+        <div className="title">Quản lý danh sách bác sĩ</div>
 
         <div className="user-redux-body">
           <div className="container">
@@ -310,6 +310,7 @@ class UserRedux extends Component {
                 </label>
                 <select
                   className="form-control"
+                  style={{ cursor: "pointer" }}
                   onChange={(event) => {
                     this.onChangeInput(event, "gender");
                   }}
@@ -334,6 +335,7 @@ class UserRedux extends Component {
                 </label>
                 <select
                   className="form-control"
+                  style={{ cursor: "pointer" }}
                   onChange={(event) => {
                     this.onChangeInput(event, "position");
                   }}
@@ -341,7 +343,7 @@ class UserRedux extends Component {
                 >
                   {positions &&
                     positions.length > 0 &&
-                    positions.map((item, index) => {
+                    positions.slice(0, 5).map((item, index) => {
                       return (
                         <option key={index} value={item.keyMap}>
                           {language === LANGUAGES.VI
@@ -358,6 +360,7 @@ class UserRedux extends Component {
                 </label>
                 <select
                   className="form-control"
+                  style={{ cursor: "pointer" }}
                   onChange={(event) => {
                     this.onChangeInput(event, "role");
                   }}
@@ -365,7 +368,7 @@ class UserRedux extends Component {
                 >
                   {roles &&
                     roles.length > 0 &&
-                    roles.map((item, index) => {
+                    roles.slice(1, 2).map((item, index) => {
                       return (
                         <option key={index} value={item.keyMap}>
                           {language === LANGUAGES.VI

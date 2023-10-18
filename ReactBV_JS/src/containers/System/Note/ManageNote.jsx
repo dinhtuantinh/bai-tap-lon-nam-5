@@ -212,7 +212,7 @@ class ManageNote extends Component {
                   No.
                 </td>
                 <th>Tên</th>
-                <th>Địa chỉ</th>
+                {/* <th>Địa chỉ</th> */}
                 <th>Giới thiệu</th>
                 <th>Actions</th>
               </tr>
@@ -223,7 +223,7 @@ class ManageNote extends Component {
                     <tr key={index}>
                       <td>{index + 1}</td>
                       <td>{item.name}</td>
-                      <td>{item.address}</td>
+                      {/* <td>{item.descriptionHTML}</td>  */}
                       <td>{item.descriptionMarkdown}</td>
                       <td>
                         <button

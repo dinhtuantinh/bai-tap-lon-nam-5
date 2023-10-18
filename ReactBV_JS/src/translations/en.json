@@ -23,11 +23,11 @@
     },
     "menu": {
         "admin": {
-            "manage-user": "Users",
+            "manage-user": "Manage",
             "manage-doctor": "Manage doctors",
             "manage-admin": "Manage admins",
             "crud": "CRUD user",
-            "crud-redux": "CRUD Redux",
+            "crud-redux": "Danh sách bác sĩ",
             "clinic": "Clinics",
             "manage-clinic": "Manage clinics",
             "specialty": "Specialties",
@@ -36,6 +36,7 @@
             "manage-note": "Manage notes"
         },
         "doctor": {
+            "doctor-edit-info": "Edit info",
             "manage-schedule": "Manage Doctor's schedule",
             "manage-patient": "Manage Doctor's patient"
         }
@@ -53,7 +54,8 @@
         "role": "Role",
         "image": "Avatar",
         "save": "Save user",
-        "edit": "Edit user"
+        "edit": "Edit user",
+        "save-admin":"Thay đổi thông tin"
     },
     "homepage": {
         "outstanding-doctor": "Doctor",

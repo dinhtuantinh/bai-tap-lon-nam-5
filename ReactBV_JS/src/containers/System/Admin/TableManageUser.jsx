@@ -31,8 +31,11 @@ class TableManageUser extends Component {
   }
   componentDidUpdate(prevProps, prevState, snapshot) {
     if (prevProps.listUsers !== this.props.listUsers) {
+      const newUser = this.props.listUsers.filter(
+        (item) => item.roleId === "R2"
+      );
       this.setState({
-        usersRedux: this.props.listUsers,
+        usersRedux: newUser,
       });
     }
   }
@@ -93,11 +96,11 @@ class TableManageUser extends Component {
               })}
           </tbody>
         </table>
-        <MdEditor
+        {/* <MdEditor
           style={{ height: "500px" }}
           renderHTML={(text) => mdParser.render(text)}
           onChange={handleEditorChange}
-        />
+        /> */}
       </React.Fragment>
     );
   }

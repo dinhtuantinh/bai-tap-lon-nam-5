@@ -213,19 +213,6 @@ class HomeHeader extends Component {
               </div>
               <div
                 className="child-content"
-                onClick={() => this.handleComponentClinic()}
-              >
-                <div className="name-option">
-                  <b>
-                    <FormattedMessage id="homeheader.health-facility" />
-                  </b>
-                </div>
-                {/* <div className="subs-title">
-                  <FormattedMessage id="homeheader.select-room" />
-                </div> */}
-              </div>
-              <div
-                className="child-content"
                 onClick={() => this.handleComponentDoctor()}
               >
                 <div className="name-option">
@@ -250,6 +237,19 @@ class HomeHeader extends Component {
                   <FormattedMessage id="homeheader.golden-notebook" />
                 </div> */}
               </div>
+              <div
+                className="child-content"
+                onClick={() => this.handleComponentClinic()}
+              >
+                <div className="name-option">
+                  <b>
+                    <FormattedMessage id="homeheader.health-facility" />
+                  </b>
+                </div>
+                {/* <div className="subs-title">
+                  <FormattedMessage id="homeheader.select-room" />
+                </div> */}
+              </div>
             </div>
             <div className="right-content">
               <div className="support">
@@ -258,7 +258,7 @@ class HomeHeader extends Component {
                   <FormattedMessage id="homeheader.support" />
                 </a>
               </div>
-              <div
+              {/* <div
                 className={
                   language === LANGUAGES.VI
                     ? "language-vi active"
@@ -279,7 +279,7 @@ class HomeHeader extends Component {
                 <span onClick={() => this.changeLanguage(LANGUAGES.EN)}>
                   EN
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
